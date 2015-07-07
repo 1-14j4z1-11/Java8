@@ -1,0 +1,34 @@
+
+・基本的に以下の方針で分類
+(1) コレクションの基本操作（追加・削除・参照・探索）を目的としたメソッドはインターフェース内のデフォルトメソッドにする。
+(2) コレクションインスタンスの生成に関するメソッドは生成されるコレクションの型と同じインタフェースのstaticメソッドにする。
+
+
+・addAll()
+・binarySearch()
+・copy()
+・enumeration()
+・fill()
+・indexOfSubList()
+・lastIndexOfSubList()
+・replaceAll()
+・reverse()/reverseOrder()
+・sort()
+・swap()
+(1)の理由で、各インターフェースのdefaultメソッドにする。
+
+・checkedCollection() 他
+・emptyList() 他
+・list()
+・nCopies()
+・singleton() 他
+・synchronizedCollection() 他
+・unmodifiableCollection 他
+(2)の理由で、各インターフェースのstaticメソッドにする。
+
+・disjoint()
+・frequency()
+・max()/min()
+・shuffle()
+・rotate()
+→コレクションの基本操作の範囲を超えるため、ユーティリティ扱いでCollectionのstaticメソッドにする。
