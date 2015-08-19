@@ -1,0 +1,3 @@
+UnaryOpertor#compose()の返り値はFunction<V, R>である。
+一方で、transform()の引数型はUnaryOperator<T>なため、Function<V, R>を渡すと型があっていないものと扱われる。
+関数合成に関しては、ストラクチャル型の方が利便性が高い。

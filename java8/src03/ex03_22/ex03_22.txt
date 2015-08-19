@@ -1,0 +1,1 @@
+CompletableFuture<T> -> Tへの変換のため、CompletableFuture.get()と同じ処理がfaltMap操作に当たる

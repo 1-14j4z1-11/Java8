@@ -1,0 +1,3 @@
+? super Uとして良い。
+accumuratorは(U, T) -> Uの関数だが、引数の型Uと返り値の型Uがそれぞれ別の型変数なため、
+BiFunction<? super U, ? super T, ? extends U>とすればaccumuratorとしての機能を満たせる
