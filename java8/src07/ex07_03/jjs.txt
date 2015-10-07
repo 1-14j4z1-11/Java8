@@ -1,0 +1,9 @@
+jjs> var b = new java.math.BigInteger('1234567890987654321')
+jjs> b
+1234567890987654400
+jjs> b.mod(java.math.BigInteger.TEN)
+1
+jjs> var str1 = b.divide(new java.math.BigInteger(1000000000)).toString()
+jjs> var str2 = b.mod(new java.math.BigInteger(1000000000)).toString()
+jjs> str1 + str2
+1234567890987654321

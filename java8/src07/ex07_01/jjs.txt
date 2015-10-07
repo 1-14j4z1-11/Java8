@@ -1,0 +1,7 @@
+jjs> var date = java.time.LocalDate.of(2015, 1, 1)
+jjs> date
+2015-01-01
+jjs> date.plusDays(255)
+2015-09-13
+jjs> date.plusDays(255).getDayOfWeek()
+SUNDAY

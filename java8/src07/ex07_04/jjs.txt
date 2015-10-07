@@ -1,0 +1,8 @@
+jjs> var str = 'HelloWorld'
+jjs> var sub = str.slice(5)
+jjs> sub
+World
+jjs> sub.getClass()
+class java.lang.String
+jjs> java.lang.String.class.cast(sub)
+World
