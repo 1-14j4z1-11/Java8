@@ -1,0 +1,8 @@
+jjs> var filterFunc = function(word) { return word.length > 12 }
+jjs> var printFunc = function(str) { print(str); }
+jjs> var lines = java.nio.file.Files.readAllLines(new java.io.File("words.txt").
+toPath())
+jjs> var stream = lines.stream()
+jjs> var stream = stream.filter(filterFunc)
+jjs> var stream = stream.sorted()
+jjs> stream.forEach(printFunc)
