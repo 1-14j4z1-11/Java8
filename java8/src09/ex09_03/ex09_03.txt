@@ -1,0 +1,2 @@
+複数キャッチする例外の共通の例外クラスをthrows宣言する
+"FileNotFoundException | UnknownHostException"の場合は"IOException"

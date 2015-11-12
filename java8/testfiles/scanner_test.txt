@@ -1,0 +1,9 @@
+2.2	Froyo	0
+2.3	Gingerbread	6
+4.0	Ice Cream Sandwich	5
+4.1	Jelly Bean	16
+4.2	Jelly Bean	18
+4.3	Jelly Bean	6
+4.4	KitKat	40
+5.0	Lollipop	9
+5.1	Lollipop	1
